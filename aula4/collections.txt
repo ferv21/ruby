@@ -1,0 +1,3 @@
+Grupo de dados que vamos manipular e iterar
+
+exemplo : Arrays e Objetos (Hash)

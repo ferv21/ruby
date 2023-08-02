@@ -1,0 +1,11 @@
+Each 
+- Percorre uma collection de forma parecida ao for, porém, não sobrescrevendo o valor
+de variáveis fora da estrutura de repetição
+
+Map 
+- Cria um array baseando-se em valores de um array existente
+
+Select
+- Realiza uma seleção de elementos presente em uma collection através de uma condição
+pré definida. Traz como resultado somente os valores que passam nesta condição
+(meio parecido com o find ou filter do js)
