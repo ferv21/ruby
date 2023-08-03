@@ -6,3 +6,7 @@ names.each do |name| # basicamente o |name| dentro das pipe é uma variavel temp
 end
 
 puts name
+
+
+# basicamente eu posso manipular o array names, usando o each, atraves da variavel que esta entre
+# |    | , assim eu posso usar a variavel temporaria name para fazer algo
