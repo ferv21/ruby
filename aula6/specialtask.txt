@@ -1,0 +1,17 @@
+Classes 
+Esportista
+    - Métodos
+        - competir -> Imprime a msg : "Participando de uma competição"
+
+JogadorDeFutebol 
+    - Métodos
+        - correr -> Imprime a msg : "Correndo atrás da bola"
+
+Maratonista
+    - Métodos
+        - correr -> Imprime a msg : "Percorrendo o circuito"
+
+As classes JogadorDeFutebol e Maratonista Devem Herdar os comportamentos da classe Esportista
+
+No final do programa Execute os métodos competir e correr em objetos do tipo JogadorDeFutebol e 
+Maratonista

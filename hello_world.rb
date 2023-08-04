@@ -20,7 +20,7 @@ class Person < RichPerson #dessa forma simples é feita a herança
     #   @name
     #end
 
-   attr_reader :name, :age
+    attr_reader :name, :age
 
 
     #Um pouco abaixo tem um exemplo sobre atribuição de valores, que basta ser substituido pelo attr_writer

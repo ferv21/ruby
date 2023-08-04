@@ -1,0 +1,39 @@
+POO 
+> Classe
+> Objeto
+> Exemplos praticos com ruby
+
+
+POO - É um paradigma de programação criado para lidar com softwares grandes e complexos.
+É um conceito não só pelo Ruby, mas também por várias outras linguagens de programação
+como Java, C++, e etc. Estruturamos nosso código para ser mais fácil de trabalhar
+
+->  Abstração - Ação de abstrair uma entidade do mundo real e transforma-la 
+    em uma classe.
+
+-> Encapsulamento - Ato de dividir um programa em diversas partes tornando-o flexível,
+fácil de modificar e incluir novas funcionalidades.
+
+-> Herança - Habilidade de criar uma Classe com características de outra existente.
+A herança promove o reuso e reaproveitamento de código.
+
+-> Polimorfismo - Capacidade de utilizar um método de diferentes formas para diferentes Objetos
+
+
+CLASSE - Tendo como exemplo o objeto Carro, pense em uma classe. Com ela é possível construir
+vários carros. Uma classe é como a planta de um objeto.
+
+-> Objeto - É toda coisa material que pode ser percebida pelos sentidos, como exemplo
+um carro, livro, cachorro, caneta, avião e etc. Na programação um objeto é a representação
+de um objeto do mundo real.
+
+Todos estes objetos apresentam duas características em comum: informações e comportamentos
+
+Exemplo de objeto
+informações : 
+Raça: Pastor Alemão
+Peso: 30 kilos
+idade: 3 anos
+comportamento: Late, Come, Corre
+
+EM POO chamamos as informações de attributes (attr) e os comportamentos de methods.
