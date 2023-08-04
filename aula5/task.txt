@@ -1,0 +1,7 @@
+1 - Crie um programa que possua um método que resolva a potência
+dado um número base e seu expoente. Estes dois valores devem ser informados
+pelo usuário
+
+
+2 - Siga a documentação da gem CPF_CNPJ para criar um programa que recebe como entrada um 
+número de cpf e em um método verifiquese este número é válido!

@@ -8,3 +8,6 @@ else
 end
 
 puts "You #{check_change} change the product"
+
+
+#basicamente um unless é um if not

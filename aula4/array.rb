@@ -2,7 +2,7 @@ armas_wr = [] # array vazio
 
 armas_wr.push('Machado') # o método push serve para adicionar algo no final de um array
 
-armas_wr.insert(0, 'Lança') # o método insert adiciona algo no array em qualquer posição ({posiçao do array}, conteudo do array)
+armas_wr.insert(1, 'Lança') # o método insert adiciona algo no array em qualquer posição ({posiçao do array}, conteudo do array)
 
 #eu posso acessar os dados do array de acordo com a posição
 
@@ -10,7 +10,7 @@ armas_wr[0] = "Machados Duplos" # no inicio Machado estava na posição 0, agora
 
 #tambem posso chamar os valores pelos intervalos, exemplo 1..2 (posição 1 até  a posição 2)
 
-armas_wr[1..2]
+armas_wr[1..6]
 
 #podemos pegar valores de tras pra frente também
 
@@ -19,11 +19,10 @@ armas_wr[-1] #posição 1 de tras pra frente,serve com intervalos tbm tipo -1..-
 #para pegar o primeiro item de um array, alem de array[0], usamos o metodo .first
 armas_wr.first
 
-#paga pegar o ultimo item, usamos o .last
-
+#para pegar o ultimo item, usamos o .last
 armas_wr.last
 
-#para eu saber quando itens tem em um array eu uso o método length
+#para eu saber o tamanho de itens tem em um array eu uso o método length
 armas_wr.length
 
 #para verificar se existe um item especifico no array, usamos o include?

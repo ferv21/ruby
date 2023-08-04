@@ -1,0 +1,21 @@
+Gem é um pacote que oferece funcionalidades a fim de resolver
+uma necessidade específica de algum programa Ruby.
+É como se fossem lib (bibliotecas) em outras linguagens
+
+
+- Instalamos uma gem usando o comando =>>>> gem install os
+a gem ' os ' é uma lib para você extrair informações  sobre o pc q vc ta usando
+tipo o sistema operacional, a quantidade de cores e etc.
+
+- Para desinstalar uma gem é só usar o gem uninstall "nome da gem"
+
+- Para listar as gems que eu possuo eu os o >>> gem list
+
+
+
+# Em grandes projetos usamos o bundler, ao inves de instalar gem por gem
+- o bundler, e o arquivo gemfile é como se fosse o package.json, é la que fica todas as nossas gems
+- e as dependencias do projeto
+- para eu instalar as gems eu uso o comando bundle, é semelhante ao npm i, que instala todas as dependencias
+
+existem varios sites com gems e a documentação para ser utilizada

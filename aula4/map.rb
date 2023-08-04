@@ -3,7 +3,7 @@ products = [1,2,3,4] # meu array normal
 puts "\n Executando .map multiplicando cada item por 2" # mensagem para ser exibida, o \n quebra 1 linha
 
 
-#.map não altera o conteúdo do array original
+#.map não altera o conteúdo do array original , ele apenas nos mostra TODO conteúdo de array
 products_list = products.map do |item| # nesse caso eu to atribuindo o valor do array em um variavel dps de multiplicar cada item por 2
     item * 2                           # é como se eu tivesse criando um array, apartir de outro array, multiplicando os valores por 2
 end

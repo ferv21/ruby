@@ -13,18 +13,14 @@ carros.keys # aqui eu vejo apenas Honda,Toyota,Audi e etc
 
 carros.values # aqui eu vejo o valor de cada key, tipo Civic, Hilux, A4
 
-#Para excluir algo eu posso usar o .delete({:chave do item})
-
+#Para excluir algo eu posso usar o .delete(:chave do item)
 carros.delete(:Honda) # nesse caso exclui o Honda Civic
 
 #para pegar um valor de um hash, só preciso pegar ele e passar a chave :chave
-
 carros[:Toyota] # retorna Hilux
 
 #para saber a quatidade de elementos usamos o .size
-
 carros.size
 
 #podemos usar o empty? tambem para verificar se está vazio
-
 carros.empty? # retorna false, pois o hash n está vazio

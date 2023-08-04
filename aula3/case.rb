@@ -13,3 +13,6 @@ when 10..12
 else
     puts 'Não foi possível identificar'
 end
+
+
+#1..10 intervalo entre 1 e 10
