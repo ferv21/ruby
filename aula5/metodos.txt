@@ -1,0 +1,15 @@
+- Métodos
+
+São um forma de organizar instruções em um programa, permitindo que trechos de códigos sejam reutilizados.
+é como as funçoes const hello = (name) => {} com parametros
+
+Exemplo 
+nesse caso name é um parametro da função hello, como se fosse hello(name), o name pode ser passado quando a função for chamada
+
+
+def hello name 
+    puts "Olá #{name}
+end
+
+hello "Leonardo"
+hello "Flávia"
