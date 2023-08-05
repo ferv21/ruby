@@ -1,0 +1,15 @@
+Ruby Avançado!
+
+- Blocks
+- Lambda
+- Modules -> namespace - mixins
+
+
+Blocks 
+-> Um bloco pode ser entendido com uma função anônima, ou seja, uma função sem nome
+-> É definido entre do..end ou colchetes e da mesma forma que os métodos que a gente viu
+até agora, pode receber parâmetros para sua execução.
+
+Lambdas 
+-> São semelhantes aos blocks, mas podem ser armazenadas em variáveis para serem
+reutilizadas
