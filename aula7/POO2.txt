@@ -1,0 +1,71 @@
+Require 
+Escopo das variáveis
+Atributos
+Construtores
+
+
+Require -  Serve para carregar arquivos ruby que foram escritos pela gente
+é como se eu tivesse importando um arquivo no react, entao eu posso meio que componentizar meus
+arquivos ruby e usar o require para importar eles.
+
+Escopo das variáveis - O escopo define onde a variável vai estar disponível dentro do programa
+No Ruby existem 4 tipos: Variável Local, Variável Global, Variável de Classe e Variável de Instancia
+
+Variável Local - É declarada com a primeira letra de seu nome sendo uma letra minuscula ou sublinhado.
+- > Pode ser acessada apenas onde foi criada. Por exemplo, se você definir uma variável local 
+dentro de uma classe ela estará disponível apenas dentro desta classe, se a definiu dentro de um
+método, conseguirá acessá-la apenas dentro deste método e assim por diante.
+
+Variável Global - É declarada com o prefixo $.
+- > Pode ser acessada em qualquer lugar do programa. Seu uso é FORTEMENTE DESENCORAJADO pois além
+de ser visível em qualquer lugar do código, também pode ser alterada em inúmeros locais ocasionando
+dificuldades no rastreamento de bugs.
+
+Variável de Classe - É declarada com o prefixo @@.
+- > Pode ser acessada em qualquer lugar da classe onde foi declarada e seu valor é compartilhado
+entre todas as instâncias de sua classe.
+
+exemplo do chat gpt
+
+class Carro
+  @@total_carros = 0
+
+  def initialize(marca, modelo)
+    @marca = marca
+    @modelo = modelo
+    @@total_carros += 1
+  end
+
+  def self.total_carros
+    @@total_carros
+  end
+end
+
+carro1 = Carro.new("Toyota", "Corolla")
+carro2 = Carro.new("Honda", "Civic")
+
+puts "Total de carros: #{Carro.total_carros}" # Saída: Total de carros: 2
+
+
+Variável de instâncias - É declarada com o símbolo @.
+- > Semelhante a variável de classe, tendo como única diferença o valor que não é compartilhado
+entre todas as instâncias de sua classe.
+
+exemplo do chat gpt
+
+class Pessoa
+  def initialize(nome, idade)
+    @nome = nome
+    @idade = idade
+  end
+
+  def apresentar
+    puts "Olá, meu nome é #{@nome} e tenho #{@idade} anos."
+  end
+end
+
+pessoa1 = Pessoa.new("Alice", 30)
+pessoa2 = Pessoa.new("Bob", 25)
+
+pessoa1.apresentar
+pessoa2.apresentar
