@@ -69,3 +69,13 @@ pessoa2 = Pessoa.new("Bob", 25)
 
 pessoa1.apresentar
 pessoa2.apresentar
+
+
+- ATRIBUTOS 
+-> É um valor associado ao uma instância, eles são sempre privados e começam com @.
+Só podem ser alterados pelos métodos de um objeto.
+
+- CONSTRUTORES
+-> Toda vez que a instância de uma classe é criada, o Ruby procura por um método chamado
+initialize. Você pode criar este método para especificar valores padrões durante a construção
+do objeto. É como se fosse um start, como se fosse o estado inicial

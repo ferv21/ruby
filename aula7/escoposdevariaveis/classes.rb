@@ -12,3 +12,6 @@ first_user.add('João') # usando o método .add que recebe o parametro name, nes
 
 second_user = User.new # criando a instância segundo usuário
 second_user.add('Gabi') # usando o método .add que recebe o parâmetro name, nesse caso Gabi!
+
+# Mesmo sendo instancias diferentes o valor da variavel @@user_count continua crescendo
+# É COMPARTILHADA ENTRE TODAS AS INSTANCIAS

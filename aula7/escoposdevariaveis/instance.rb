@@ -13,3 +13,7 @@ end
 
 user = User.new
 user.add('João')
+
+#É importante notar que as variáveis de instância pertencem apenas a uma instância específica da classe.
+
+# Quando eu criar uma instancia, eu posso acessar a minha variavel @name dentro dessa nova instancia e atribuir o valor que eu quiser

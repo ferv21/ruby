@@ -5,4 +5,5 @@ selection = array.select do |item| # Ele só vai retornar os valores que eu pass
     item >= 4   # nesse caso eu posso pesquisar, os items maiores ou igual a 4, nesse caso 4 5 6
 end 
 
+# ele só vai me retornar os itens que forem mais ou igual a 4
 puts selection # mostrar os items de acordo com select ali, selection = array.select

@@ -9,7 +9,7 @@ class Animal # a classe que as outras classes vão herdar a gente chama de PAI
 end
 
 #Herança
-class Cachorro < Animal # aqui usando o < (Menor que) eu to dizendo que Cachorro vai herdar os métodos de Animal
+class Cachorro < Animal # aqui usando o < (Menor que) eu to dizendo que Cachorro vai herdar os métodos de Animal (pular e dormir)
     def latir
         puts 'Au Au!'
     end

@@ -21,6 +21,6 @@ third_value = gets.chomp
 values = {first_key:first_value, second_key:second_value, third_key:third_value}
 
 
-hash.merge!(values) # o método merge! une dois hashes, nesse caso to unindo o hash vazio com o que eu acabei de criar usando os valores dos print com get chomps
+hash.merge!(values) # o método merge! une dois hashes, nesse caso to unindo o hash vazio com o que eu acabei de criar usando os valores dos print com get chomp
 
 puts hash

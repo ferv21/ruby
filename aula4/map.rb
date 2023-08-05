@@ -8,6 +8,8 @@ products_list = products.map do |item| # nesse caso eu to atribuindo o valor do 
     item * 2                           # é como se eu tivesse criando um array, apartir de outro array, multiplicando os valores por 2
 end
 
+#products_list = [2,4,6,8]
+
 puts "\n Array Original"
 puts "#{products}"
 puts "\n Novo Array"
