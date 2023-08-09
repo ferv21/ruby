@@ -53,16 +53,6 @@ my_lambda.call(numbers)
 #Se eu usar a palavra lambda, eu passo o parametro nessa ordem
 # my_lambda = lambda do |parametro|  - nesse caso o parametro é entre pipe | |
 
-
-my_lambda.call(numbers)
-
-# Se eu usar o símbolo eu passo o parametro nessa ordem
-# my_lambda = -> (parametro) do - nesse caso o parametro é em colchetes ()
-
-#Se eu usar a palavra lambda, eu passo o parametro nessa ordem
-# my_lambda = lambda do |parametro|  - nesse caso o parametro é entre pipe | |
-
-
 # Segundo o chat gpt, é mais moderno usar o ->, ao inves de lambda, semelhante a arrow function
 # function = () =>
 

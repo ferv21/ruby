@@ -13,3 +13,7 @@ até agora, pode receber parâmetros para sua execução.
 Lambdas 
 -> São semelhantes aos blocks, mas podem ser armazenadas em variáveis para serem
 reutilizadas
+
+Modules
+- namespace - Serve com um container para agrupar objetos relacionados(classes, constantes, métodos ou outros modules)
+- mixins - Serve para incluir funcionalidades extras as classes. Semelhantes a herança

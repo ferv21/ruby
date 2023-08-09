@@ -10,7 +10,7 @@ armas_wr[0] = "Machados Duplos" # no inicio Machado estava na posição 0, agora
 
 #tambem posso chamar os valores pelos intervalos, exemplo 1..2 (posição 1 até  a posição 2)
 
-armas_wr[1..6]
+armas_wr[1..6] # pegando item do array que está na posição 1 até a posição 6.
 
 #podemos pegar valores de tras pra frente também
 

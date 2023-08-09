@@ -8,7 +8,7 @@ nesse caso name é um parametro da função hello, como se fosse hello(name), o 
 
 
 def hello name 
-    puts "Olá #{name}
+    puts "Olá #{name}"
 end
 
 hello "Leonardo"

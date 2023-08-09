@@ -18,7 +18,7 @@ puts sum
 # seria a mesma coisa que
 # assim EU acho mais legível e elegante
 sum = 0
-number = [5,10,5]
+numbers = [5,10,5]
 numbers.each do |number|
     sum += number
 end

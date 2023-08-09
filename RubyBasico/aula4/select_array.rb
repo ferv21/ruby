@@ -7,3 +7,11 @@ end
 
 # ele só vai me retornar os itens que forem mais ou igual a 4
 puts selection # mostrar os items de acordo com select ali, selection = array.select
+
+refinos = [12,11,10,9,8]
+
+perolas = refinos.select do |item|
+    item >= 10
+end
+
+puts "Os refinos com pérolas são: #{perolas}"

@@ -1,0 +1,26 @@
+Regex
+- As expressões regulares são notações para representar padrões em strings, 
+elas servem para validar entradas de dados ou fazer busca e extração de informações
+em textos.
+
+- De primeira vista ele serve pra fazer buscas e pegar informações de uma string por exemplo.
+- Basicamente encontrar valores dentro de strings
+
+
+Time
+- O Ruby conta com uma classe chamada Time para representar datas e horas.
+
+
+
+Method Missing 
+- Basicamente é utilizado para interceptar chamadas de métodos que não existem
+
+Self
+- No Ruby, self  é uma variável especial que aponta para o objeto atual, tipo o this em javascript
+
+Private and Protected
+- Métodos Privados e Métodos Protegidos 
+- >> Por padrão todos os métodos definidos são públicos. Isso significa que eles podem
+ser acessador por qualquer um.
+- >> Mas além dos métodos públicos, existem outros dois tipos de métodos chamados
+private e protected
