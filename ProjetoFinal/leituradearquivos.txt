@@ -1,0 +1,6 @@
+- Ler e escrever em arquivos te dá o poder de criar uma grande gama de softwares,
+felizmente fazer isso no Ruby é bem fácil
+
+- Chamadas Web -> Através de chamadas Web podemos conectar o nosso software a outros
+programas através da internet. Então veremos alguns exemplos de como fazer isso
+com a lib Net::HTTP do Ruby.

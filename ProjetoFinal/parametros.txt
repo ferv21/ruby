@@ -1,0 +1,18 @@
+Sim, exatamente. O 'w' é um argumento (parâmetro) que você passa para o método File.open 
+em Ruby. Ele é usado para especificar o modo de abertura do arquivo. 
+Existem vários modos que você pode usar para abrir um arquivo, e 'w' é um deles. 
+Aqui estão alguns dos modos mais comuns:
+
+'r': Modo de leitura (read mode). Abre o arquivo somente para leitura.
+
+'w': Modo de escrita (write mode). Abre o arquivo para escrita, 
+substituindo o conteúdo existente ou criando um novo arquivo se não existir.
+
+'a': Modo de anexação (append mode). Abre o arquivo para escrita, 
+mas não substitui o conteúdo existente. Em vez disso, 
+escreve novos dados no final do arquivo.
+
+'r+': Modo de leitura e escrita (read-write mode). Abre o arquivo para leitura e escrita.
+Ao passar esses modos como argumentos para o método File.open, 
+você especifica como o arquivo deve ser manipulado durante a operação. 
+Certifique-se de escolher o modo apropriado para a tarefa que deseja realizar.
