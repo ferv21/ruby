@@ -4,3 +4,10 @@ felizmente fazer isso no Ruby é bem fácil
 - Chamadas Web -> Através de chamadas Web podemos conectar o nosso software a outros
 programas através da internet. Então veremos alguns exemplos de como fazer isso
 com a lib Net::HTTP do Ruby.
+
+Web Scraping
+-> Conseguimos extrair dados de sites, como por exemplo: resultado de jogos de futebol
+de um portal de notícias, uma lista de posts de um blog e etc
+
+>> Para fazer isso, usaremos a gem chamada Nokogiri, que nos ajudará a encontrar
+as informações dentro de estruturas Html dos sites.
