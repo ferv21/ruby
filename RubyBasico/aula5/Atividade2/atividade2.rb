@@ -3,7 +3,7 @@ require 'cpf_cnpj' # importo a gem, que eu baixo no arquivo gemfile e executo o 
 puts 'Verificação de CPF!'
 
 
-def cpf_valido  # crio a função
+def cpf_valido  # crio o método
 
     print("Digite o número de cpf: ") # peço pro usuário digitar o cpf
     cpf_number = gets.chomp.to_i # armazeno o cpf digitado nessa variavel

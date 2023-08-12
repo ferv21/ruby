@@ -3,11 +3,11 @@ class User # criando classe pai
     def add(name) # criando método add que recebe o parametro name
         @name = name # atribuindo a variavel de instancia @name o name que eu vou receber pelo parametro
         puts "User adicionado"
-        hello
+        hello #chamando método helle dentro do método add
     end
 
     def hello
-        puts "Seja bem vindo, #{name}!" # posso acessar a variavel dentro de outro método
+        puts "Seja bem vindo, #{@name}!" # posso acessar a variavel dentro de outro método
     end
 end
 

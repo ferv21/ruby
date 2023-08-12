@@ -18,4 +18,9 @@ for pw in classes_pw #basicamente eu atribuo um valor ao array e posso manipular
     count = count + 1
 end
 
+contador = [1,2,3,4,5,6,7]
+
+for numero in contador 
+    puts numero * 2
+end
 

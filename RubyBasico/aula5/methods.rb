@@ -2,7 +2,7 @@ def talk # o def e end sao blocos que chamamos de métodos, são ao funçoes.
     puts 'Olá, como você está?'
 end
 
-10.times do # vai chamar 10 vezes a função talk
+10.times do # vai chamar 10 vezes o método talk
     talk
 end
 
